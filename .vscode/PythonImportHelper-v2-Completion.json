@@ -1,0 +1,56 @@
+[
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "Line_Plot",
+        "description": "Line_Plot",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')",
+        "detail": "Line_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Line_Plot",
+        "description": "Line_Plot",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')\nplt.show()",
+        "detail": "Line_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "Multiple_Line_Plot",
+        "description": "Multiple_Line_Plot",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.plot(products, price, label='Price')\nplt.plot(products, quantity, label='Quantity', linestyle='--')\nplt.legend()\nplt.show()",
+        "detail": "Multiple_Line_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Multiple_Line_Plot",
+        "description": "Multiple_Line_Plot",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.plot(products, price, label='Price')\nplt.plot(products, quantity, label='Quantity', linestyle='--')\nplt.legend()\nplt.show()",
+        "detail": "Multiple_Line_Plot",
+        "documentation": {}
+    }
+]
