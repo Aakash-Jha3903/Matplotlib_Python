@@ -20,24 +20,6 @@
     {
         "label": "products",
         "kind": 5,
-        "importPath": "Matplotlib_practice.Line_Plot",
-        "description": "Matplotlib_practice.Line_Plot",
-        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')",
-        "detail": "Matplotlib_practice.Line_Plot",
-        "documentation": {}
-    },
-    {
-        "label": "price",
-        "kind": 5,
-        "importPath": "Matplotlib_practice.Line_Plot",
-        "description": "Matplotlib_practice.Line_Plot",
-        "peekOfCode": "price = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')\nplt.show()",
-        "detail": "Matplotlib_practice.Line_Plot",
-        "documentation": {}
-    },
-    {
-        "label": "products",
-        "kind": 5,
         "importPath": "Line_Plot",
         "description": "Line_Plot",
         "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')",
@@ -69,6 +51,24 @@
         "description": "Multiple_Line_Plot",
         "peekOfCode": "price = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.plot(products, price, label='Price')\nplt.plot(products, quantity, label='Quantity', linestyle='--')\nplt.legend()\nplt.show()",
         "detail": "Multiple_Line_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "Subplot",
+        "description": "Subplot",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.subplot(2, 1, 1)  #(rows, columns, index) - first subplot\nplt.plot(products, price, label='Price')\nplt.title('Price')\nplt.subplot(2, 1, 2)  #(rows, columns, index) - second subplot\nplt.plot(products, quantity, label='Quantity')\nplt.title('Quantity')\nplt.tight_layout()",
+        "detail": "Subplot",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Subplot",
+        "description": "Subplot",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.subplot(2, 1, 1)  #(rows, columns, index) - first subplot\nplt.plot(products, price, label='Price')\nplt.title('Price')\nplt.subplot(2, 1, 2)  #(rows, columns, index) - second subplot\nplt.plot(products, quantity, label='Quantity')\nplt.title('Quantity')\nplt.tight_layout()\nplt.show()",
+        "detail": "Subplot",
         "documentation": {}
     }
 ]
