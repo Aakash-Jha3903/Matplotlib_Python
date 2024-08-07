@@ -56,6 +56,24 @@
     {
         "label": "products",
         "kind": 5,
+        "importPath": "Saving_Figures",
+        "description": "Saving_Figures",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.plot(products, price, label='Price')\nplt.plot(products, quantity, label='Quantity', linestyle='--')\nplt.legend()\nplt.savefig('1stplot.png')\nplt.show()",
+        "detail": "Saving_Figures",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Saving_Figures",
+        "description": "Saving_Figures",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.plot(products, price, label='Price')\nplt.plot(products, quantity, label='Quantity', linestyle='--')\nplt.legend()\nplt.savefig('1stplot.png')\nplt.show()",
+        "detail": "Saving_Figures",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
         "importPath": "Subplot",
         "description": "Subplot",
         "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.subplot(2, 1, 1)  #(rows, columns, index) - first subplot\nplt.plot(products, price, label='Price')\nplt.title('Price')\nplt.subplot(2, 1, 2)  #(rows, columns, index) - second subplot\nplt.plot(products, quantity, label='Quantity')\nplt.title('Quantity')\nplt.tight_layout()",
