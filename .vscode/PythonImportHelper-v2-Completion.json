@@ -20,6 +20,33 @@
     {
         "label": "products",
         "kind": 5,
+        "importPath": "Bar_Plot",
+        "description": "Bar_Plot",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\n#plt.bar(products, price)\n#plt.bar(products, price, color='red', width=0.5)\nplt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\n#plt.barh(products, price, color=['r', 'g', 'y'])\nbars = plt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Bar Plot')",
+        "detail": "Bar_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Bar_Plot",
+        "description": "Bar_Plot",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\n#plt.bar(products, price)\n#plt.bar(products, price, color='red', width=0.5)\nplt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\n#plt.barh(products, price, color=['r', 'g', 'y'])\nbars = plt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Bar Plot')\nplt.grid(axis='x', linestyle='--')",
+        "detail": "Bar_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "bars",
+        "kind": 5,
+        "importPath": "Bar_Plot",
+        "description": "Bar_Plot",
+        "peekOfCode": "bars = plt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Bar Plot')\nplt.grid(axis='x', linestyle='--')\nplt.grid(axis='y', linestyle=':')\n# Add value labels on top of each bar\nfor bar in bars:\n    yval = bar.get_height()\n    plt.text(bar.get_x() + bar.get_width()/2, yval, round(yval, 2), ha='center', va='bottom', fontsize=15)",
+        "detail": "Bar_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
         "importPath": "Line_Plot",
         "description": "Line_Plot",
         "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nplt.plot(products, price)\nplt.plot(products, price, color='red', linestyle='--', linewidth=2)\nplt.plot(products, price, marker='o', markersize=20, markerfacecolor='red')\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Line Plot')\nplt.grid(True)\nplt.grid(color='gray', linestyle=':')",
