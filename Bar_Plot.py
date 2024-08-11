@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import numpy as np
+
 
 products = ["Mouse", "Keyborad", "Laptop", "Mobile", "Headphone"]
 price = [101, 110, 103, 115, 100]
