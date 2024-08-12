@@ -137,6 +137,42 @@
     {
         "label": "products",
         "kind": 5,
+        "importPath": "Scatter_Plot",
+        "description": "Scatter_Plot",
+        "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\n#plt.scatter(products, price)\nsizes = [20, 50, 80, 200, 500]  # Marker sizes\ncolors = ['red', 'green', 'blue', 'cyan', 'magenta']  # Marker colors\nplt.scatter(products, price, s=sizes, c=colors)\n# Annotate specific points\nfor i, txt in enumerate(['A', 'B', 'C', 'D', 'E']):\n    plt.annotate(txt, (products[i], price[i]))\nplt.show()",
+        "detail": "Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Scatter_Plot",
+        "description": "Scatter_Plot",
+        "peekOfCode": "price = [101, 110, 103, 115, 100]\n#plt.scatter(products, price)\nsizes = [20, 50, 80, 200, 500]  # Marker sizes\ncolors = ['red', 'green', 'blue', 'cyan', 'magenta']  # Marker colors\nplt.scatter(products, price, s=sizes, c=colors)\n# Annotate specific points\nfor i, txt in enumerate(['A', 'B', 'C', 'D', 'E']):\n    plt.annotate(txt, (products[i], price[i]))\nplt.show()",
+        "detail": "Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "sizes",
+        "kind": 5,
+        "importPath": "Scatter_Plot",
+        "description": "Scatter_Plot",
+        "peekOfCode": "sizes = [20, 50, 80, 200, 500]  # Marker sizes\ncolors = ['red', 'green', 'blue', 'cyan', 'magenta']  # Marker colors\nplt.scatter(products, price, s=sizes, c=colors)\n# Annotate specific points\nfor i, txt in enumerate(['A', 'B', 'C', 'D', 'E']):\n    plt.annotate(txt, (products[i], price[i]))\nplt.show()",
+        "detail": "Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "Scatter_Plot",
+        "description": "Scatter_Plot",
+        "peekOfCode": "colors = ['red', 'green', 'blue', 'cyan', 'magenta']  # Marker colors\nplt.scatter(products, price, s=sizes, c=colors)\n# Annotate specific points\nfor i, txt in enumerate(['A', 'B', 'C', 'D', 'E']):\n    plt.annotate(txt, (products[i], price[i]))\nplt.show()",
+        "detail": "Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
         "importPath": "Subplot",
         "description": "Subplot",
         "peekOfCode": "products = [\"Mouse\", \"Keyborad\", \"Laptop\", \"Mobile\", \"Headphone\"]\nprice = [101, 110, 103, 115, 100]\nquantity=[30, 60, 40, 80, 90]\nplt.subplot(2, 1, 1)  #(rows, columns, index) - first subplot\nplt.plot(products, price, label='Price')\nplt.title('Price')\nplt.subplot(2, 1, 2)  #(rows, columns, index) - second subplot\nplt.plot(products, quantity, label='Quantity')\nplt.title('Quantity')\nplt.tight_layout()",
