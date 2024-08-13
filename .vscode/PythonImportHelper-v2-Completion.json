@@ -117,6 +117,42 @@
         "documentation": {}
     },
     {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "Multiple_Scatter_Plot",
+        "description": "Multiple_Scatter_Plot",
+        "peekOfCode": "x1 = [1, 2, 3, 4, 5]\ny1 = [10, 15, 13, 17, 20]\nx2 = [1, 2, 3, 4, 5]\ny2 = [20, 25, 23, 27, 30]\nplt.scatter(x1, y1, color='blue', label='Group 1')\nplt.scatter(x2, y2, color='red', label='Group 2')\nplt.legend()\nplt.xlabel('X-axis Label')\nplt.ylabel('Y-axis Label')\nplt.title('Multiple Scatter Plots')",
+        "detail": "Multiple_Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y1",
+        "kind": 5,
+        "importPath": "Multiple_Scatter_Plot",
+        "description": "Multiple_Scatter_Plot",
+        "peekOfCode": "y1 = [10, 15, 13, 17, 20]\nx2 = [1, 2, 3, 4, 5]\ny2 = [20, 25, 23, 27, 30]\nplt.scatter(x1, y1, color='blue', label='Group 1')\nplt.scatter(x2, y2, color='red', label='Group 2')\nplt.legend()\nplt.xlabel('X-axis Label')\nplt.ylabel('Y-axis Label')\nplt.title('Multiple Scatter Plots')\nplt.show()",
+        "detail": "Multiple_Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "x2",
+        "kind": 5,
+        "importPath": "Multiple_Scatter_Plot",
+        "description": "Multiple_Scatter_Plot",
+        "peekOfCode": "x2 = [1, 2, 3, 4, 5]\ny2 = [20, 25, 23, 27, 30]\nplt.scatter(x1, y1, color='blue', label='Group 1')\nplt.scatter(x2, y2, color='red', label='Group 2')\nplt.legend()\nplt.xlabel('X-axis Label')\nplt.ylabel('Y-axis Label')\nplt.title('Multiple Scatter Plots')\nplt.show()",
+        "detail": "Multiple_Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y2",
+        "kind": 5,
+        "importPath": "Multiple_Scatter_Plot",
+        "description": "Multiple_Scatter_Plot",
+        "peekOfCode": "y2 = [20, 25, 23, 27, 30]\nplt.scatter(x1, y1, color='blue', label='Group 1')\nplt.scatter(x2, y2, color='red', label='Group 2')\nplt.legend()\nplt.xlabel('X-axis Label')\nplt.ylabel('Y-axis Label')\nplt.title('Multiple Scatter Plots')\nplt.show()",
+        "detail": "Multiple_Scatter_Plot",
+        "documentation": {}
+    },
+    {
         "label": "products",
         "kind": 5,
         "importPath": "Saving_Figures",
