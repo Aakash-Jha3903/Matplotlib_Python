@@ -9,6 +9,14 @@
         "documentation": {}
     },
     {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -42,6 +50,15 @@
         "description": "Bar_Plot",
         "peekOfCode": "bars = plt.bar(products, price, color=['r', 'g', 'y'], width=0.5)\nplt.xlabel('Products')\nplt.ylabel('Price')\nplt.title('Products Bar Plot')\nplt.grid(axis='x', linestyle='--')\nplt.grid(axis='y', linestyle=':')\n# Add value labels on top of each bar\nfor bar in bars:\n    yval = bar.get_height()\n    plt.text(bar.get_x() + bar.get_width()/2, yval, round(yval, 2), ha='center', va='bottom', fontsize=15)",
         "detail": "Bar_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Histogram",
+        "description": "Histogram",
+        "peekOfCode": "data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]\n#plt.hist(data, bins=5, orientation='vertical')\nplt.hist(data, bins=5, orientation='vertical', color='skyblue', edgecolor='black')\nplt.xlabel('Value')\nplt.ylabel('Frequency')\nplt.title('Basic Histogram')\nplt.show()",
+        "detail": "Histogram",
         "documentation": {}
     },
     {
