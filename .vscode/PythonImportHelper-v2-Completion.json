@@ -62,6 +62,24 @@
         "documentation": {}
     },
     {
+        "label": "data",
+        "kind": 5,
+        "importPath": "histogram_with_density_plot",
+        "description": "histogram_with_density_plot",
+        "peekOfCode": "data = np.random.randn(10000)\n# Create histogram with density plot\nplt.hist(data, bins=30, density=True, alpha=0.6, color='g')\n# Add density plot\ndensity = np.linspace(min(data), max(data), 100)\nplt.plot(density, 1/(np.sqrt(2 * np.pi)) * np.exp(-0.5 * density**2), color='r')\nplt.xlabel('Value')\nplt.ylabel('Density')\nplt.title('Histogram with Density Plot')\nplt.show()",
+        "detail": "histogram_with_density_plot",
+        "documentation": {}
+    },
+    {
+        "label": "density",
+        "kind": 5,
+        "importPath": "histogram_with_density_plot",
+        "description": "histogram_with_density_plot",
+        "peekOfCode": "density = np.linspace(min(data), max(data), 100)\nplt.plot(density, 1/(np.sqrt(2 * np.pi)) * np.exp(-0.5 * density**2), color='r')\nplt.xlabel('Value')\nplt.ylabel('Density')\nplt.title('Histogram with Density Plot')\nplt.show()",
+        "detail": "histogram_with_density_plot",
+        "documentation": {}
+    },
+    {
         "label": "products",
         "kind": 5,
         "importPath": "Line_Plot",
