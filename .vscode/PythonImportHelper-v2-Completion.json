@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -131,6 +139,24 @@
         "description": "multiple_bars",
         "peekOfCode": "products_index_set = [j+width for j in products_index]\nplt.bar(products_index, price, color='red', width=width, label='Price')\nplt.bar(products_index_set, quantity, color='blue', width=width, label='Quantity')\nplt.xticks(products_index+width/2, products, rotation=20)\nplt.legend()\nplt.show()",
         "detail": "multiple_bars",
+        "documentation": {}
+    },
+    {
+        "label": "data1",
+        "kind": 5,
+        "importPath": "Multiple_Histograms",
+        "description": "Multiple_Histograms",
+        "peekOfCode": "data1 = np.random.randn(1000)\ndata2 = np.random.randn(1000) + 2\nplt.hist(data1, bins=30, alpha=0.5, label='Data 1')\nplt.hist(data2, bins=30, alpha=0.5, label='Data 2')\nplt.xlabel('Value')\nplt.ylabel('Frequency')\nplt.title('Multiple Histograms')\nplt.legend()\nplt.show()",
+        "detail": "Multiple_Histograms",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "Multiple_Histograms",
+        "description": "Multiple_Histograms",
+        "peekOfCode": "data2 = np.random.randn(1000) + 2\nplt.hist(data1, bins=30, alpha=0.5, label='Data 1')\nplt.hist(data2, bins=30, alpha=0.5, label='Data 2')\nplt.xlabel('Value')\nplt.ylabel('Frequency')\nplt.title('Multiple Histograms')\nplt.legend()\nplt.show()",
+        "detail": "Multiple_Histograms",
         "documentation": {}
     },
     {
