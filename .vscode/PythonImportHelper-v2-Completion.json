@@ -25,6 +25,14 @@
         "documentation": {}
     },
     {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -211,6 +219,42 @@
         "description": "Multiple_Scatter_Plot",
         "peekOfCode": "y2 = [20, 25, 23, 27, 30]\nplt.scatter(x1, y1, color='blue', label='Group 1')\nplt.scatter(x2, y2, color='red', label='Group 2')\nplt.legend()\nplt.xlabel('X-axis Label')\nplt.ylabel('Y-axis Label')\nplt.title('Multiple Scatter Plots')\nplt.show()",
         "detail": "Multiple_Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": "Pie_Chart",
+        "description": "Pie_Chart",
+        "peekOfCode": "labels = ['Mouse', 'Keyboard', 'Laptop', 'Mobile', 'Headphone']\nsizes = [30, 60, 40, 80, 90]\ncolors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue', 'lightgreen']\nexplode = (0, 0.1, 0, 0, 0)\nplt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140, explode=explode, shadow=True)\nplt.title('Basic Pie Chart')\nplt.axis('equal')\nplt.legend(labels, loc='upper right')\nplt.show()",
+        "detail": "Pie_Chart",
+        "documentation": {}
+    },
+    {
+        "label": "sizes",
+        "kind": 5,
+        "importPath": "Pie_Chart",
+        "description": "Pie_Chart",
+        "peekOfCode": "sizes = [30, 60, 40, 80, 90]\ncolors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue', 'lightgreen']\nexplode = (0, 0.1, 0, 0, 0)\nplt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140, explode=explode, shadow=True)\nplt.title('Basic Pie Chart')\nplt.axis('equal')\nplt.legend(labels, loc='upper right')\nplt.show()",
+        "detail": "Pie_Chart",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "Pie_Chart",
+        "description": "Pie_Chart",
+        "peekOfCode": "colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue', 'lightgreen']\nexplode = (0, 0.1, 0, 0, 0)\nplt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140, explode=explode, shadow=True)\nplt.title('Basic Pie Chart')\nplt.axis('equal')\nplt.legend(labels, loc='upper right')\nplt.show()",
+        "detail": "Pie_Chart",
+        "documentation": {}
+    },
+    {
+        "label": "explode",
+        "kind": 5,
+        "importPath": "Pie_Chart",
+        "description": "Pie_Chart",
+        "peekOfCode": "explode = (0, 0.1, 0, 0, 0)\nplt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140, explode=explode, shadow=True)\nplt.title('Basic Pie Chart')\nplt.axis('equal')\nplt.legend(labels, loc='upper right')\nplt.show()",
+        "detail": "Pie_Chart",
         "documentation": {}
     },
     {
