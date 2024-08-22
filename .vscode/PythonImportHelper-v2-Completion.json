@@ -41,6 +41,14 @@
         "documentation": {}
     },
     {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -326,6 +334,24 @@
         "description": "Scatter_Plot",
         "peekOfCode": "colors = ['red', 'green', 'blue', 'cyan', 'magenta']  # Marker colors\nplt.scatter(products, price, s=sizes, c=colors)\n# Annotate specific points\nfor i, txt in enumerate(['A', 'B', 'C', 'D', 'E']):\n    plt.annotate(txt, (products[i], price[i]))\nplt.show()",
         "detail": "Scatter_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Stem_Plot",
+        "description": "Stem_Plot",
+        "peekOfCode": "x = np.linspace(0.1, 2 * np.pi, 10)\ny = np.sin(x)\nplt.stem(x, y, linefmt='--')\nplt.title('Basic Stem Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()",
+        "detail": "Stem_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Stem_Plot",
+        "description": "Stem_Plot",
+        "peekOfCode": "y = np.sin(x)\nplt.stem(x, y, linefmt='--')\nplt.title('Basic Stem Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()",
+        "detail": "Stem_Plot",
         "documentation": {}
     },
     {
