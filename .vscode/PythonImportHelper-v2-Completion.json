@@ -355,6 +355,24 @@
         "documentation": {}
     },
     {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Step_Plot",
+        "description": "Step_Plot",
+        "peekOfCode": "x = np.linspace(0, 10, 11)\ny = np.sin(x)\nplt.step(x, y, where='mid', linestyle='--', color='g')\nplt.fill_between(x, y, step='mid', alpha=0.2)\nplt.title('Basic Step Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()",
+        "detail": "Step_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Step_Plot",
+        "description": "Step_Plot",
+        "peekOfCode": "y = np.sin(x)\nplt.step(x, y, where='mid', linestyle='--', color='g')\nplt.fill_between(x, y, step='mid', alpha=0.2)\nplt.title('Basic Step Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()",
+        "detail": "Step_Plot",
+        "documentation": {}
+    },
+    {
         "label": "products",
         "kind": 5,
         "importPath": "Subplot",
