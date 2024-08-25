@@ -1,5 +1,14 @@
 [
     {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
         "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
@@ -49,12 +58,30 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
+        "label": "x",
+        "kind": 5,
+        "importPath": "Area_Plot",
+        "description": "Area_Plot",
+        "peekOfCode": "x = np.linspace(0, 10, 100)\ny1 = np.sin(x)\ny2 = np.cos(x)\nplt.fill_between(x, y1, color='skyblue', alpha=0.5, label='sin(x)')\nplt.fill_between(x, y2, color='lightgreen', alpha=0.5, label='cos(x)')\nplt.title('Basic Area Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.legend()\nplt.show()",
+        "detail": "Area_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y1",
+        "kind": 5,
+        "importPath": "Area_Plot",
+        "description": "Area_Plot",
+        "peekOfCode": "y1 = np.sin(x)\ny2 = np.cos(x)\nplt.fill_between(x, y1, color='skyblue', alpha=0.5, label='sin(x)')\nplt.fill_between(x, y2, color='lightgreen', alpha=0.5, label='cos(x)')\nplt.title('Basic Area Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.legend()\nplt.show()",
+        "detail": "Area_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y2",
+        "kind": 5,
+        "importPath": "Area_Plot",
+        "description": "Area_Plot",
+        "peekOfCode": "y2 = np.cos(x)\nplt.fill_between(x, y1, color='skyblue', alpha=0.5, label='sin(x)')\nplt.fill_between(x, y2, color='lightgreen', alpha=0.5, label='cos(x)')\nplt.title('Basic Area Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.legend()\nplt.show()",
+        "detail": "Area_Plot",
         "documentation": {}
     },
     {
